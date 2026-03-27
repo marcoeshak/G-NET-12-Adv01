@@ -226,9 +226,25 @@ namespace G_NET_12_Adv01
             #endregion
 
             #region Q13
-            
+
             // default(T) or default returns the default value for type T: null for reference types, 0 / false for value types
-            
+
+            #endregion
+
+            #region Q14
+            /*
+            public class SafeList<T>
+            {
+            private List<T> list = new List<T>();
+
+            public T Get(int index)
+            {
+                if (index < 0 || index >= list.Count)
+                    return default;
+                return list[index];
+            }
+            }
+             */
             #endregion
 
         }
