@@ -259,6 +259,13 @@ namespace G_NET_12_Adv01
 
             #endregion
 
+            #region Q17
+
+            // out = output = producer = covariant(child → parent)
+            // in = input = consumer = contravariant (parent → child)
+
+            #endregion
+
         }
     }
 }
