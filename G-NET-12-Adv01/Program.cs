@@ -103,6 +103,28 @@ namespace G_NET_12_Adv01
 
             #endregion
 
+            #region Q07
+
+            /*
+            public struct Nullable<T> where T : struct
+                {
+            private readonly bool _hasValue;
+            private readonly T _value;
+
+            public bool HasValue => _hasValue;
+            public T Value => _hasValue ? _value
+                : throw new InvalidOperationException();
+
+            public Nullable(T value)
+            {
+                _hasValue = true;
+                _value = value;
+            }
+                 }
+            */
+
+            #endregion
+
 
     }
     }
