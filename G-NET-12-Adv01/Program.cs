@@ -1,5 +1,6 @@
 ﻿using System.Numerics;
 using System.Runtime.Intrinsics.X86;
+using System.Security.Principal;
 using System.Timers;
 
 namespace G_NET_12_Adv01
@@ -191,7 +192,39 @@ namespace G_NET_12_Adv01
             */
             #endregion
 
+            #region Q12
 
-    }
+            /* 
+             WITHE Single Type Parameter ///
+
+            ublic class EntityManager<T>
+            where T : class, IEntity, new()
+               {
+            public T CreateAndSave()
+            {
+                var entity = new T();      // ✅ new() constraint
+                entity.Id = Guid.NewGuid(); // ✅ IEntity constraint
+                return entity;
+            }
+            }
+
+            WITH Multiple Type Parameters
+
+            public class Mapper<TSource, TDest>
+            where TSource : class
+            Where TDest : class, new()
+            {
+             public TDest Map(TSource source)
+             {
+           var dest = new TDest();
+           // Copy properties via reflection...
+             return dest;
+             }
+              }
+
+            */
+            #endregion
+
+        }
     }
 }
