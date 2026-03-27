@@ -266,6 +266,12 @@ namespace G_NET_12_Adv01
 
             #endregion
 
+            #region Q18
+
+            // Each closed generic type has its own copy of static fields
+
+            #endregion
+
         }
     }
 }
