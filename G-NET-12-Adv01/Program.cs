@@ -46,6 +46,18 @@ namespace G_NET_12_Adv01
 
             #endregion
 
+            #region Q03
+
+            /*
+             
+            public class Pair<TKey, TValue>
+            {
+            public TKey Key { get; set; }
+            public TValue Value { get; set; }
+            }
+
+            */
+            #endregion
 
 
         }
