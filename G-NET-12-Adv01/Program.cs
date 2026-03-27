@@ -180,7 +180,18 @@ namespace G_NET_12_Adv01
 
             #endregion
 
+            #region Q11
 
-        }
+            /*
+            public class Animal { }
+
+            public class Example<T> where T : Animal
+            {
+            }
+            */
+            #endregion
+
+
+    }
     }
 }
