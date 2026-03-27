@@ -148,15 +148,16 @@ namespace G_NET_12_Adv01
             */
             #endregion
 
-            #region Q09
-
-
-
-
-
+            #region Q08
+            /*
+            public class Example<T> where T : class
+            {
+            public T Value;
+            }
+            */
             #endregion
 
 
-        }
+    }
     }
 }
