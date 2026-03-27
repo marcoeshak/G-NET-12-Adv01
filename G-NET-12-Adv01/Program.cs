@@ -247,6 +247,12 @@ namespace G_NET_12_Adv01
              */
             #endregion
 
+            #region Q15
+
+           // allows you to use a more derived type than originally specified.Marked with out keyword.T can only appear in output positions
+
+            #endregion
+
         }
     }
 }
