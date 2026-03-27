@@ -125,7 +125,38 @@ namespace G_NET_12_Adv01
 
             #endregion
 
+            #region Q09
 
-    }
+            /*
+            public class Factory<T> where T : new()
+            {
+            public T Create()
+            {
+                return new T(); // ✅ Allowed because of new() constraint
+            }
+
+            public List<T> CreateMany(int count)
+            {
+                var list = new List<T>();
+                for (int i = 0; i < count; i++)
+                {
+                    list.Add(new T());
+                }
+                return list;
+            }
+            }
+            */
+            #endregion
+
+            #region Q09
+
+
+
+
+
+            #endregion
+
+
+        }
     }
 }
