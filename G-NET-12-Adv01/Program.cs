@@ -24,7 +24,27 @@ namespace G_NET_12_Adv01
 
             #endregion
 
+            #region Q02
 
+            /*
+            public class Container<T>
+            {
+            private T _value;
+
+            public void Add(T value)
+            {
+                _value = value;
+            }
+
+            public T Get()
+            {
+                return _value;
+            }
+            }
+
+            */
+
+            #endregion
 
 
 
