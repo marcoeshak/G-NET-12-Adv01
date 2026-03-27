@@ -78,14 +78,31 @@ namespace G_NET_12_Adv01
 
             #region Q05
 
+            /*
             public static T FindMax<T>(T a, T b) where T : IComparable<T>
              {
                  if (a.CompareTo(b) > 0)
                 return a;
                 return b;
              }
+            */
+            #endregion
+
+            #region Q06
+
+            // Generic interfaces define contracts with type parameters
+
+            /*
+             
+            public interface IRepository<T>
+               {
+            void Add(T item);
+            T Get(int id);
+                }
+            */
 
             #endregion
+
 
     }
     }
