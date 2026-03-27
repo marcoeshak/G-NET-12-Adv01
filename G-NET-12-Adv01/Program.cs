@@ -249,7 +249,13 @@ namespace G_NET_12_Adv01
 
             #region Q15
 
-           // allows you to use a more derived type than originally specified.Marked with out keyword.T can only appear in output positions
+            // allows you to use a more derived type than originally specified.Marked with out keyword.T can only appear in output positions
+
+            #endregion
+
+            #region Q16
+
+            // allows you to use a less derived type than originally specified.Marked with in keyword.T can only appear in input positions.
 
             #endregion
 
