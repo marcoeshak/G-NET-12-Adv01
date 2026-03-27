@@ -59,6 +59,22 @@ namespace G_NET_12_Adv01
             */
             #endregion
 
+            #region Q04
+
+            /*
+             
+            Generic methods define type parameters at method level.
+
+                public static void Swap<T>(ref T a, ref T b)
+                {
+                 T temp = a;
+                 a = b;
+                 b = temp;
+                }
+
+            */
+
+            #endregion
 
         }
     }
