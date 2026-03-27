@@ -225,6 +225,12 @@ namespace G_NET_12_Adv01
             */
             #endregion
 
+            #region Q13
+            
+            // default(T) or default returns the default value for type T: null for reference types, 0 / false for value types
+            
+            #endregion
+
         }
     }
 }
