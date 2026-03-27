@@ -280,6 +280,38 @@ namespace G_NET_12_Adv01
              */
             #endregion
 
-    }
+            #region Q20
+
+            /*
+            public class Cache<TKey, TValue>
+              {
+            private Dictionary<TKey, TValue> data = new Dictionary<TKey, TValue>();
+
+            public void Add(TKey key, TValue value)
+            {
+                data[key] = value;
+            }
+
+            public TValue Get(TKey key)
+            {
+                return data.ContainsKey(key) ? data[key] : default;
+            }
+
+            public void Remove(TKey key)
+            {
+                if (data.ContainsKey(key))
+                    data.Remove(key);
+            }
+
+            public bool Contains(TKey key)
+            {
+                return data.ContainsKey(key);
+            }
+              }
+            */
+
+            #endregion
+
+        }
     }
 }
