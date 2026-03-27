@@ -272,6 +272,14 @@ namespace G_NET_12_Adv01
 
             #endregion
 
-        }
+            #region Q19
+            /*
+                 public class Repository<T> {  base  }
+                 Derived class is also generic
+                public class CachedRepository<T> : Repository<T> { }
+             */
+            #endregion
+
+    }
     }
 }
